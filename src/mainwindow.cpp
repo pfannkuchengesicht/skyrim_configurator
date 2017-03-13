@@ -115,7 +115,8 @@ MainWindow::MainWindow(QWidget *parent, bool log) :
     ui->ckbShowPreview->setChecked(true);
     setPreview("000.jpg");
     ui->ckbShowPreview->setChecked(false);
-
+    this->adjustSize();
+/*
     this->updateGeometry();
     this->update();
     QRect winGeom = this->geometry();
@@ -123,7 +124,7 @@ MainWindow::MainWindow(QWidget *parent, bool log) :
     this->setGeometry(newGeom);
     this->updateGeometry();
     this->update();
-
+*/
     pPrevF = new QFile(preview_base + "/" + "previews.xml");
 
     if(pPrevF->open(QIODevice::ReadOnly))
@@ -415,6 +416,7 @@ void MainWindow::on_ckbShowPreview_toggled(bool checked)
         //this->setFixedWidth(984);
         //this->setMinimumWidth(this->width() + 424);
         ui->grpPreview->setVisible(true);
+        this->adjustSize();
         //QRect winGeom = this->geometry();
         //QRect newGeom = QRect(winGeom.left(), winGeom.top(), winGeom.width() + 415, winGeom.height());
         //this->setGeometry(newGeom);
@@ -424,15 +426,16 @@ void MainWindow::on_ckbShowPreview_toggled(bool checked)
         //this->setFixedWidth(560);
         //this->setMinimumWidth(this->width() + 424);
         ui->grpPreview->setVisible(false);
-        this->updateGeometry();
-        this->update();
+        this->adjustSize();
+        //this->updateGeometry();
+        //this->update();
 
         //QRect winGeom = this->geometry();
         //QRect newGeom = QRect(winGeom.left(), winGeom.top(), winGeom.width() - 415, winGeom.height());
         //this->setGeometry(newGeom);
 
-        this->updateGeometry();
-        this->update();
+        //this->updateGeometry();
+        //this->update();
     }
 }
 

@@ -155,12 +155,18 @@ p, li { white-space: pre-wrap; }
        <property name="text">
         <string>Version: </string>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
       </widget>
      </item>
      <item>
       <widget class="QLabel" name="lblVersion">
        <property name="text">
         <string notr="true">0.0.0.0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
        </property>
       </widget>
      </item>
@@ -173,12 +179,18 @@ p, li { white-space: pre-wrap; }
        <property name="text">
         <string>Detected Language:</string>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
       </widget>
      </item>
      <item>
       <widget class="QLabel" name="lblLang">
        <property name="text">
         <string notr="true">En</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
        </property>
       </widget>
      </item>
@@ -191,12 +203,18 @@ p, li { white-space: pre-wrap; }
        <property name="text">
         <string>Creator:</string>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
       </widget>
      </item>
      <item>
       <widget class="QLabel" name="lblCreator">
        <property name="text">
         <string notr="true">Roy Freytag</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
        </property>
       </widget>
      </item>
@@ -209,12 +227,18 @@ p, li { white-space: pre-wrap; }
        <property name="text">
         <string>Translator:</string>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
       </widget>
      </item>
      <item>
       <widget class="QLabel" name="lblTranslator">
        <property name="text">
         <string>translator_here</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
        </property>
       </widget>
      </item>
@@ -226,6 +250,9 @@ p, li { white-space: pre-wrap; }
       <widget class="QLabel" name="lblWebsiteL">
        <property name="text">
         <string>Website:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
        </property>
       </widget>
      </item>
@@ -240,6 +267,9 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="textFormat">
         <enum>Qt::RichText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
        </property>
        <property name="openExternalLinks">
         <bool>true</bool>

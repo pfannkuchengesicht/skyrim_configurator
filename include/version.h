@@ -10,7 +10,7 @@
 #define VER_COMPANYNAME_STR         ""
 #define VER_FILEDESCRIPTION_STR     "TES V: Skyrim configurator"
 #define VER_INTERNALNAME_STR        "Skyrim configurator"
-#define VER_LEGALCOPYRIGHT_STR      "Copyright (c) 2012 Roy Freytag"
+#define VER_LEGALCOPYRIGHT_STR      "Copyright (C) 2017 Roy Freytag"
 #define VER_LEGALTRADEMARKS1_STR    "All Rights Reserved"
 #define VER_LEGALTRADEMARKS2_STR    VER_LEGALTRADEMARKS1_STR
 #define VER_ORIGINALFILENAME_STR    "skyrim_config.exe"

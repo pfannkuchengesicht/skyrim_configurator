@@ -1,0 +1,6 @@
+[submodule "resource"]
+	path = resource
+	url = https://github.com/rfreytag1/skyrim_configurator_resource.git
+[submodule "locale"]
+	path = locale
+	url = https://github.com/rfreytag1/skyrim_configurator_locale.git

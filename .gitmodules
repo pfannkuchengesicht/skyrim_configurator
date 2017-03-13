@@ -4,3 +4,6 @@
 [submodule "locale"]
 	path = locale
 	url = https://github.com/rfreytag1/skyrim_configurator_locale.git
+[submodule "previews"]
+	path = previews
+	url = https://github.com/rfreytag1/skyrim_configurator_previews.git

@@ -11,7 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = skyrim_config
 TEMPLATE = app
 
-INCLUDEPATH += include src resources locale ui
+INCLUDEPATH += include src resource locale ui
 
 #CODECFORTR = UTF-8
 
@@ -61,7 +61,8 @@ OTHER_FILES += \
 RESOURCES += \
     resource/logo.qrc \
     resource/tab_icons.qrc \
-    resource/default_preview.qrc
+    resource/default_preview.qrc \
+    resource/logo.qrc
 
 RC_FILE = resource/icon.rc
 

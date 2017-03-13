@@ -201,7 +201,7 @@
             </property>
             <widget class="QWidget" name="tabGFX_Screen">
              <attribute name="icon">
-              <iconset resource="tab_icons.qrc">
+              <iconset resource="../resource/tab_icons.qrc">
                <normaloff>:/tab_icons/tab_screen.png</normaloff>:/tab_icons/tab_screen.png</iconset>
              </attribute>
              <attribute name="title">
@@ -1068,7 +1068,7 @@ p, li { white-space: pre-wrap; }
             </widget>
             <widget class="QWidget" name="tabGFX_Tex">
              <attribute name="icon">
-              <iconset resource="tab_icons.qrc">
+              <iconset resource="../resource/tab_icons.qrc">
                <normaloff>:/tab_icons/tab_tex.png</normaloff>:/tab_icons/tab_tex.png</iconset>
              </attribute>
              <attribute name="title">
@@ -1754,7 +1754,7 @@ p, li { white-space: pre-wrap; }
             </widget>
             <widget class="QWidget" name="tabGFX_Models">
              <attribute name="icon">
-              <iconset resource="tab_icons.qrc">
+              <iconset resource="../resource/tab_icons.qrc">
                <normaloff>:/tab_icons/tab_models.png</normaloff>:/tab_icons/tab_models.png</iconset>
              </attribute>
              <attribute name="title">
@@ -2579,7 +2579,7 @@ p, li { white-space: pre-wrap; }
                 </widget>
                 <widget class="QWidget" name="tabGFX_Models_Trees">
                  <attribute name="icon">
-                  <iconset resource="tab_icons.qrc">
+                  <iconset resource="../resource/tab_icons.qrc">
                    <normaloff>:/tab_icons/tab_trees.png</normaloff>:/tab_icons/tab_trees.png</iconset>
                  </attribute>
                  <attribute name="title">
@@ -2967,7 +2967,7 @@ p, li { white-space: pre-wrap; }
                 </widget>
                 <widget class="QWidget" name="tabGFX_Models_Grass">
                  <attribute name="icon">
-                  <iconset resource="tab_icons.qrc">
+                  <iconset resource="../resource/tab_icons.qrc">
                    <normaloff>:/tab_icons/tab_grass.png</normaloff>:/tab_icons/tab_grass.png</iconset>
                  </attribute>
                  <attribute name="title">
@@ -3200,7 +3200,7 @@ lower values = more grass
             </widget>
             <widget class="QWidget" name="tabGFX_Lighting">
              <attribute name="icon">
-              <iconset resource="tab_icons.qrc">
+              <iconset resource="../resource/tab_icons.qrc">
                <normaloff>:/tab_icons/tab_lighting.png</normaloff>:/tab_icons/tab_lighting.png</iconset>
              </attribute>
              <attribute name="title">
@@ -4867,7 +4867,7 @@ p, li { white-space: pre-wrap; }
             </widget>
             <widget class="QWidget" name="tabGFX_Water">
              <attribute name="icon">
-              <iconset resource="tab_icons.qrc">
+              <iconset resource="../resource/tab_icons.qrc">
                <normaloff>:/tab_icons/tab_water.png</normaloff>:/tab_icons/tab_water.png</iconset>
              </attribute>
              <attribute name="title">
@@ -6074,7 +6074,7 @@ p, li { white-space: pre-wrap; }
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="tab_icons.qrc"/>
+  <include location="../resource/tab_icons.qrc"/>
  </resources>
  <connections>
   <connection>
